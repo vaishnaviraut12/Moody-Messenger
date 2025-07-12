@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moody Messenger</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>💬 Moody Messenger</h1>
+    <p>Select your mood:</p>
+
+      <select id="moodSelect" onchange="showMessage()">
+      <option value="">-- Select Mood --</option>
+      <option value="happy">😊 Happy</option>
+      <option value="sad">😢 Sad</option>
+      <option value="angry">😡 Angry</option>
+      <option value="anxious">😟 Anxious</option>
+      <option value="excited">🤩 Excited</option>
+    </select>
+
+    <div id="messageBox" class="hidden">
+      <h2>Your Message:</h2>
+      <p id="messageText"></p>
+      <button onclick="newMessage()">New Message</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

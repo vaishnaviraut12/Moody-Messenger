@@ -1,0 +1,31 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #e0f7fa;
+  text-align: center;
+  padding: 50px;
+}
+.container {
+  max-width: 600px;
+  background: white;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #aaa;
+}
+select {
+  padding: 10px;
+  font-size: 16px;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
